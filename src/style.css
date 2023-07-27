@@ -1,0 +1,18 @@
+* {
+  background-color: gainsboro;
+}
+#advice {
+  color: white;
+}
+
+#btn {
+  background-color: #4caf50; /* Green */
+  border: none;
+  color: white;
+  padding: 5px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
