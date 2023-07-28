@@ -28,15 +28,15 @@ export default function App() {
   return (
     <div className="container mt-3">
       <div className="row">
+        <p className="bg-danger p-2 text-white ">
+          {time} {date}
+        </p>
         {loading ? (
           <div class="spinner-border" role="status">
             <span class="visually-hidden">Loading...</span>
           </div>
         ) : (
           <div className="col ">
-            <p className="bg-danger p-2 text-white ">
-              {time} {date}
-            </p>
             <h1 id="advice" className="card p-2 bg-success">
               {advice}{" "}
             </h1>
@@ -53,6 +53,9 @@ export default function App() {
       </div>
     </div>
   );
+  {
+    console.log("g");
+  }
 }
 
 function Message({ count }) {
